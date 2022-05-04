@@ -26,9 +26,9 @@ const doc = document.documentElement;
 const inline = ":inline";
 // variables read from your hugo configuration
 const parentURL = window.location.protocol + "//" + window.location.host + "/";
-let showImagePosition = "<no value>";
+let showImagePosition = "false";
 
-const showImagePositionLabel = '<no value>';
+const showImagePositionLabel = 'Figure';
 
 function isObj(obj) {
   return (obj && typeof obj === 'object' && obj !== null) ? true : false;
